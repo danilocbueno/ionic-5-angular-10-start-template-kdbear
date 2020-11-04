@@ -1,0 +1,16 @@
+<ion-header>
+<ion-toolbar>
+				<ion-title>
+						Registro	de	CLIENTES
+				</ion-title>
+		</ion-toolbar>
+</ion-header>
+<ion-content	padding>
+  		<form	(ngSubmit)="salvar()">
+		    <ion-input type="email" placeholder="Email" [(ngModel)]="cliente.email" name="cliente.email"></ion-input>
+        <ion-input type="email" placeholder="Email" [(ngModel)]="cliente.email2" name="cliente.email2"></ion-input>
+		    <ion-button	type="submit" shape="round" color="primary" expand="block" padding>
+						Confirmar
+		    </ion-button>
+  		</form>
+</ion-content>
